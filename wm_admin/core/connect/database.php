@@ -1,10 +1,11 @@
 <?php 
 $config = array(
-	'host'		=> 'localhost',
-	'username' 	=> 'root',
-	'password' 	=> '',
-	'dbname' 	=> 'whatsapp_messaging'
+	'host'		=> '127.12.22.130',
+	'username' 	=> 'adminYxdzbhQ', 
+	'password' 	=> 'UzNBKVPG-LCL',
+	'dbname' 	=> 'wmmessanger',
+	'port'      => '3306' 
 );
 
-$db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['dbname'], $config['username'], $config['password']);
+$db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['dbname'] . ';port=' . $config['port'], $config['username'], $config['password']);
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
