@@ -19,3 +19,5 @@ if ($general->logged_in() === true)  {
 }
 
 ob_start();
+
+?>
