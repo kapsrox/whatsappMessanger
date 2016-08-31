@@ -1,8 +1,8 @@
 <?php 
 $config = array(
-	'host'		=> 'localhost',
-	'username' 	=> 'root',
-	'password' 	=> '',
+	'host'		=> '127.12.22.130',
+	'username' 	=> 'adminYxdzbhQ',
+	'password' 	=> 'UzNBKVPG-LCL',
 	'dbname' 	=> 'whatsapp_messaging'
 );
 
