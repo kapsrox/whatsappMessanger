@@ -1,4 +1,4 @@
-
+<?php echo getenv('OPENSHIFT_MYSQL_DB_HOST'); ?>
 <!DOCTYPE html>
 <!-- 
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.1.1
