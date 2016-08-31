@@ -3,7 +3,7 @@ $config = array(
 	'host'		=> '127.12.22.130',
 	'username' 	=> 'adminYxdzbhQ',
 	'password' 	=> 'UzNBKVPG-LCL',
-	'dbname' 	=> 'whatsapp_messaging'
+	'dbname' 	=> 'wmmessanger'
 );
 
 $db = new PDO('mysql:host=' . $config['host'] . ';dbname=' . $config['dbname'], $config['username'], $config['password']);
